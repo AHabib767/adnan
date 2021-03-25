@@ -1,0 +1,473 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin:0 auto;
+}
+       /*header section*/
+header{
+	width: 100%;
+	float: left;
+		
+}
+.image{
+	width: 	30%;
+	float: 	left;
+	
+}
+.image img{
+	height: 80px;
+}
+
+.menu{
+	width: 40%;
+	float: left;
+}
+.menu nav ul{
+	list-style: none;
+}
+.menu nav ul li{
+	display: inline-block;
+	margin: 35px 5px;
+}
+.menu nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+.logo{
+   width: 30%;  
+   float: left;
+}
+.logo ul{
+	list-style: none;
+}
+.logo ul li{
+	display: inline-block;
+    margin: 33px 22px;
+    font-size: 15px;
+}
+.fa.fa-facebook-official{
+	font-size: 24px;
+	color: blue
+}
+.fa.fa-twitter{
+font-size: 24px;
+background-color: blue;
+color: white;
+}
+.fa.fa-linkedin-square{
+	font-size: 24px;
+	color: yellow;
+}
+.fa.fa-google-plus-official{
+	font-size: 24px;
+	color: red;
+}
+.fa.fa-sign-in{
+font-size: 24px;
+color: black;
+}
+/*banner section*/
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/Habib.jpg);
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 5px;
+}
+.content{
+   background-color: #4acd3275;
+    margin: 14px 484px 5px 34px;
+    padding: 121px;
+}
+
+.content h2{
+font-size: 45px;
+    text-align: center;
+    color: white;
+}
+.content p{
+
+    font-size: 17px;
+    color: white;
+}
+.content ul li{
+	list-style: none;
+	display: inline-block;    
+}
+.content ul li button{
+	color: black;
+	background-color: yellow;
+	padding: 7px;
+	margin: 15px;
+	border: none;
+}
+.content ul li button:hover{
+	cursor:pointer;
+	box-shadow: 6px 6px 9px;
+	color:blue;
+}
+  
+/*  details section*/
+.details{
+width: 100%;
+float: left;
+}
+.details-one{
+width: 25%;
+float: left;
+}
+.fa.fa-check-circle {
+    margin: 5px 115px;
+    padding: 10px;
+    font-size: 22px;
+    background: #03877be8;
+    border-radius: 24px;
+    color: white;
+}
+.details-one h3{
+	text-align: center;
+	padding: 15px;
+}
+.details-one ul li{
+	list-style: none;
+	text-align: center;
+}
+.details-one ul li button{
+	border: none;
+	color: red;
+	background-color: green;
+	padding: 10px;
+	margin: 25px;
+}
+.details-one ul li button:hover{
+cursor:pointer;
+	box-shadow: 6px 6px 9px;
+	color:yellow;	
+}
+.details-two{
+width: 25%;
+float: left;
+}
+.fa.fa-map-marker {
+    margin: 5px 115px;
+    padding: 10px;
+    font-size: 22px;
+    background: #02a18bf8;
+    border-radius: 24px;
+    color: white;}
+.details-two ul li{
+	list-style: none;
+	text-align: center;
+}
+.details-two ul li button{
+	border: none;
+	color: black;
+	background-color: red;
+	padding: 10px;
+	margin: 25px;
+}
+.details-two h3{
+text-align: center;
+	padding: 15px;
+}
+.details-two ul li button:hover{
+	cursor:pointer;
+	box-shadow: 6px 6px 9px;
+	color:green;	
+}
+
+.details-three{
+width: 25%;
+float: left;
+}
+.fa.fa-money{
+    margin: 5px 115px;
+    padding: 10px;
+    font-size: 22px;
+    background:green;
+    border-radius: 24px;
+    color: white;
+}
+.details-three h3{
+text-align: center;
+	padding: 15px;
+}
+.details-three ul li{
+	list-style: none;
+	text-align: center;
+}
+.details-three ul li button{
+	border: none;
+	color: green;
+	background-color: yellow;
+	padding: 10px;
+	margin: 25px;
+
+}
+.details-three ul li button:hover{
+	cursor:pointer;
+	box-shadow: 6px 6px 9px;
+	color:red;	
+}
+.details-four{
+width: 25%;
+float: left;
+}
+.fa.fa-user-plus {
+    margin: 5px 115px;
+    padding: 10px;
+    font-size: 22px;
+    background: #3a5e01;
+    border-radius: 24px;
+    color: white;
+}
+.details-four h3{
+	text-align: center;
+	padding: 15px;
+}
+.details-four ul li{
+	list-style: none;
+	text-align: center;
+}
+.details-four ul li  button{
+	border: none;
+	color: green;
+	background-color: pink;
+	padding: 10px;
+	margin: 25px;
+} 
+.details-four ul li  button:hover{
+	cursor:pointer;
+	box-shadow: 6px 6px 9px;
+	color:blue;	
+}
+/*  information section*/
+.data{
+	width: 100%;
+	float: left;
+}
+.data-one{
+	width: 40%;
+	float:left;
+   background-color: #0000ff42;
+   margin: 30px 60px;
+   
+}
+.data-one h1{
+	text-align: center;
+	margin: 25px 15px;
+}
+.data-one ul li{
+	list-style: none;
+	margin: 15px;
+}
+.fa.fa-stop-circle{
+	color:green;
+}
+.data-one button{
+	border: none;
+	text-align: center;
+	color: black;
+	background-color: aqua;
+	padding: 10px;
+	margin: 20px;
+}
+.data-one button:hover{
+	cursor:pointer;
+	box-shadow: 6px 6px 9px;
+	color:red;
+}
+.data-tow{
+	width: 40%;
+	float: left;
+    background-color: #0000ff42;
+    margin: 30px 54px;
+}
+.data-tow h1{
+	text-align: center;
+	margin: 25px 15px;
+}
+.data-tow ul li{
+	list-style: none;
+	margin: 15px;
+}
+.data-tow button{
+	border: none;
+	text-align: center;
+	color: black;
+	background-color: aqua;
+	padding: 10px;
+	margin: 20px;
+}
+.data-tow button:hover{
+	cursor:pointer;
+	box-shadow: 6px 6px 9px;
+	color:yellow;
+}
+.data h1{
+	text-align: center;
+	font-size: 39px;
+	color: blue ;
+}
+/*  plan section   */
+.plan{
+	width: 100%;
+	float: left;
+}
+.plan-one{
+	width: 40%;
+	float: left;
+	margin: 30px 60px;
+}
+.plan-one h2{
+	color: green;
+	padding: 15px;
+}
+.plan-one p{
+	padding: 10px;
+}
+.plan-one button{
+	border: none;
+	background-color: aqua;
+	padding: 8px;
+}
+.plan-two{
+width: 40%;
+float: left;
+margin: 30px 54px;
+}
+.plan-two h2{
+color: green;
+	padding: 20px;
+}
+.plan-two p{
+padding: 20px;
+}
+.plan-two button{
+	border: none;
+	background-color:aqua ;
+	padding: 8px;
+	color: red;
+}
+/*information section*/
+.information{
+width: 100%;
+float: left;
+
+}
+.information-one{
+width: 100%;
+float: left;
+background-color: #00800040;
+}
+.information-one h3{
+	text-align: center;
+}
+.information-one li{
+	text-align: center;
+	list-style: none;
+	padding: 10px;
+}
+.information-one li {
+color: black;
+font-size: 17px;
+}
+/*pilot sectiob*/
+.pilot{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 25px;
+}
+
+.pilot ul{
+	list-style: none;
+}
+
+.pilot ul li{
+	display: inline-block;
+    padding: 5px 13px;
+    font-size: 21px;
+    background-color: #8bc34a;
+    color: white;
+}
+.fa.fa-star{
+	color: green;
+	font-size: 20px;
+	marks: 15px;
+	padding: 12px;
+}
+.pilot p{
+	text-align: center;
+	padding: 8px;
+}
+	/*dansk section*/
+.dansk{
+	width: 100%;
+	float: left;
+	background: #787878;
+}
+.dansk-one{
+	width: 20%;
+	float: left;
+}
+.dansk h5{
+	text-align: center;
+	padding: 10px 10px ;
+}
+.dansk-one img{
+	width: 90%;
+	background-color: #787878;
+
+}
+.dansk-two{
+	width: 20%;
+	float: left;
+}
+.dansk-two img{
+	width: 90%
+}
+.dansk-three{
+	width: 20%;
+	float: left;
+}
+.dansk-three img{
+	width: 90%
+}
+.dansk-four{
+	width: 20%;
+	float: left;
+}
+.dansk-four img{
+	width: 90%
+}
+.dansk-five{
+	width: 20%;
+	float: left;
+}
+.dansk-five img{
+	width: 90%
+}
+/*Footer section*/
+.Footer{
+	width: 100%;
+	float: left;
+	background: #009FCC;
+	padding: 20px;
+}
+.footer-one{
+	width: 40%;
+	float: left;
+	text-align: right;
+}
+.footer-two{
+	width: 40%;
+	float: left;
+	padding: 0px 59px;
+}
